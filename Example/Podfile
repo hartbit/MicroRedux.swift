@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Redux_Example' do
+  pod 'Redux', :path => '../'
+
+  target 'Redux_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
