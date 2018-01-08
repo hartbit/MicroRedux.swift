@@ -1,0 +1,32 @@
+{
+  "name": "MicroRedux.swift",
+  "version": "0.1.0",
+  "summary": "A minimalistic implementation of Redux in Swift.",
+  "description": "Redux.swift is a minimalistic and pragmatic implementation of the Redux architecture pattern in Swift. It\nmerges the concepts of actions and reducers so that actions reduce the state themselves, reducing the\namount of necessary boilerplate.",
+  "homepage": "https://github.com/hartbit/MicroRedux.swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hartbit": "david@atipik.ch"
+  },
+  "source": {
+    "git": "https://github.com/hartbit/MicroRedux.swift.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/hartbit",
+  "module_name": "MicroRedux",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MicroRedux/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.1"
+    ],
+    "RxCocoa": [
+      "~> 4.1"
+    ]
+  }
+}

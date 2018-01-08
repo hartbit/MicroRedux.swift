@@ -1,0 +1,23 @@
+PODS:
+  - MicroRedux.swift (0.1.0):
+    - RxCocoa (~> 4.1)
+    - RxSwift (~> 4.1)
+  - RxCocoa (4.1.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.0)
+
+DEPENDENCIES:
+  - MicroRedux.swift (from `../`)
+
+EXTERNAL SOURCES:
+  MicroRedux.swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MicroRedux.swift: 319d3167c9dadf314fcce095d25ba248ac9a214a
+  RxCocoa: cc1fec49cdc8fabe645964de7c51c099a36c2aa8
+  RxSwift: 4219941c1244c88002901bd87a69d3aea9ae71f0
+
+PODFILE CHECKSUM: 1d5255f402ba0a8fef6c43b626083cb37e0fefb7
+
+COCOAPODS: 1.4.0.rc.1

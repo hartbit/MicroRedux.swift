@@ -1,11 +1,10 @@
+platform :ios, 8.0
 use_frameworks!
 
-target 'Redux_Example' do
-  pod 'Redux', :path => '../'
+target 'MicroRedux_Example' do
+  pod 'MicroRedux.swift', :path => '../'
 
-  target 'Redux_Tests' do
+  target 'MicroRedux_Tests' do
     inherit! :search_paths
-
-    
   end
 end

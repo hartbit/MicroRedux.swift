@@ -1,0 +1,6 @@
+framework module MicroRedux {
+  umbrella header "MicroRedux.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
